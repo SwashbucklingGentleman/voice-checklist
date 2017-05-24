@@ -1,0 +1,8 @@
+Conform to Vue best practices.
+Dockerize.
+
+Create a settings view
+--colors
+--commands
+--font size
+Create a way to edit a run from the master list.

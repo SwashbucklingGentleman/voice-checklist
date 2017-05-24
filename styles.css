@@ -1,0 +1,32 @@
+
+body {
+  background-color: #42f468;
+  color: white;
+}
+ul li {
+  list-style: none;
+}
+.messages {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    visibility: hidden;
+}
+.finished {
+    text-decoration: line-through;
+}
+.areaName {
+    text-decoration: underline;
+}
+.currentListItem {
+  font-size: 48px;
+}
+.allAreas {
+  font-size: 30px;
+}
+.current{
+    text-decoration: underline;
+}
+.allItems {
+  font-size: 30px;
+}
