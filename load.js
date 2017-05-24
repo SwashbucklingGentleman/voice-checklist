@@ -19,20 +19,22 @@
       // current area's list of items.
       currentListItemIndex: 0,
       // The the areas and their items.
-      // It be like:
-      //[
-      //  {
-      //    groupName: 'Firelink Shrine',
-      //    listItems: [
-      //      {
-      //        text: "Kill Cresfallen Warrior",
-      //        isFinished: true
-      //      }
-      //      ...
-      //    ]
-      //  }
-      //  ...
-      //]
+      // The schema is like:
+      //{
+      //  v1: [
+      //    {
+      //      groupName: 'Firelink Shrine',
+      //      listItems: [
+      //        {
+      //          text: "Kill Cresfallen Warrior",
+      //          isFinished: true
+      //        }
+      //        ...
+      //      ]
+      //    }
+      //    ...
+      //  ]
+      //}
       listdata: null,
       // The currently visible view
       // Views: currentListItem, allListItems, allAreas
