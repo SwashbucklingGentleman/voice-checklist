@@ -4,7 +4,7 @@
 //  -Vue
 //  -Vue Resource
 //  -annyang!
-// Initiate the view app
+// Initiate the Vue app
 // Get the list item data
 // Set up the voice commands with annyang!
 // Define methods for controlling the Vue app
@@ -133,28 +133,28 @@
             this.currentListItemIndex = this.listdata[this.currentAreaIndex].listItems.length - 1;
         }
       },
-      // Move make the next area the current area.
+      // Make the next area the current area.
       // TODO: Boundry handling.
       moveToNextArea: function(){
         this.currentAreaIndex++;
         this.currentListItemIndex = 0;
       },
-      // Move make the previous area the current area.
+      // Make the previous area the current area.
       // TODO: Boundry handling.
       moveToPreviousArea: function(){
         this.currentAreaIndex--;
         this.currentListItemIndex = 0;
       },
-      // Switch to the all areas view with the items collapsed
+      // Switch to the "allAreas" view with the items collapsed
       showAllAreas: function(){
         this.currentView = "allAreas";
       },
-      // Switch to the current list item
+      // Switch to the "currentListItem"
       // view witch only show the current list item.
       showCurrentListItem: function(){
         this.currentView = "currentListItem";
       },
-      // Switch to the all items view, which shows
+      // Switch to the "allItems" view, which shows
       // all the items for the current area.
       showAllListItems: function(){
         this.currentView = "allListItems";
